@@ -35,10 +35,6 @@ console.log(student);
 // task 6
 var complex = [];
 var complex = ['My name is',7,null,info];
-// complex[0] = 'My name is';
-// complex[1] = 7;
-// complex[2] = null;
-// complex[3] = info;
 console.log(complex[3]);
 
 // task 7
