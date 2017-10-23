@@ -24,6 +24,7 @@ console.log(name);
 var customArray = [3,7,11]
 console.log(customArray);
 var customArray = [0];
+// здесь нужно было прировнят массив к 0 то есть customArray = 0; а у тебя в результате это будет массив с 1 элементом, 1 элемент которого = 0
 console.log(customArray);
 
 // task 5
