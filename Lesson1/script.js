@@ -23,7 +23,7 @@ console.log(name);
 // task 4
 var customArray = [3,7,11]
 console.log(customArray);
-var customArray = [0];
+var customArray = 0; // приравниваю массив к 0
 console.log(customArray);
 
 // task 5
