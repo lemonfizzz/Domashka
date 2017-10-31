@@ -5,7 +5,7 @@ var t = {
 };
 var number = t.y;
 number += 5;
-console.log(t.y, number); // false
+console.log(t.y, number); // false ?? why false we have t.y === 9, so we will have 9, 9 + 5 === 14
 
 // task 2
 var t = {
@@ -16,6 +16,7 @@ for(var i = 0, len = t.y.length; i < len; i++) {
     t.y[i]++;
 }
 console.log(number); //  5, and we didn't learn cycles)))
+// it's because number === 5, but the cycle change array  but it don't change the number variable because 5 value is number so it's simple type, so the value pass by value not by reference
 
 // task 3
 var t = 9;
@@ -23,7 +24,7 @@ var obj = {
     number: t
 };
 obj.number++;
-console.log(obj.number, t); // 9
+console.log(obj.number, t); // 9 ?? and what will be the value of t?
 
 // task 4
 var object1 = {
